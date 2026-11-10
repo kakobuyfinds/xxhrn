@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#45162d">
+  <title>CSSBuy spreadsheet | Product Links, QC &amp; Sizing</title>
+  <meta name="description" content="Browse 10 categories with this CSSBuy spreadsheet guide. Learn to check seller links, compare measurements, read QC photos and estimate parcel costs.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CSSBuy spreadsheet | Product Links, QC &amp; Sizing">
+  <meta property="og:description" content="Find a category, check the exact listing, and build a shortlist you can verify before ordering.">
+  <meta property="og:image" content="https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1712150176/788093_XJGL6_9074_001_100_0000_Light-printed-cotton-jersey-t-shirt.jpg">
+  <meta property="og:image:alt" content="White Gucci printed cotton jersey T-shirt shown from the front">
+  <!-- Research: The Google results page was inaccessible, so Google first-page placement could not be verified. The editorial review used 10 distinct results returned by web search for the exact query.
+       cssbuyship.com, cssbuysspreadsheet.com, cssbuysh.com, cssbuymall.com, cssbuyluxe.com,
+       spreadsheetcssbuy.net, rep.tools/guides/cssbuy-spreadsheet, chinagrails.com/en/spreadsheet/agent/cssbuy,
+       cssbuy.fit, chinareptools.com/spreadsheet-search-cssbuy.
+       Recurring topics: category navigation, source product links, size charts, QC photos and shipping estimates.
+       CSSBuy feature references: https://www.cssbuy.com/shop/helpCenter?id=140 and https://new.cssbuy.com/estimates. -->
+  <style>
+    :root{color-scheme:light;--ink:#271c22;--muted:#605159;--paper:#f7f2ec;--white:#fffdfa;--plum:#45162d;--line:#d9cbd0;--accent:#f5d5b1}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.6 system-ui,sans-serif}
+    h1,h2,h3,p,figure{margin:0}
+    h1,h2,h3{line-height:1.15}
+    h1{max-width:19ch;font:700 clamp(2.35rem,7vw,5rem)/1.05 Georgia,serif;letter-spacing:-.055em;overflow-wrap:anywhere}
+    h2{font:700 clamp(1.65rem,4vw,2.55rem)/1.13 Georgia,serif;letter-spacing:-.035em}
+    h3{font-size:1.1rem}
+    a{color:inherit;text-underline-offset:.2em}
+    a:focus-visible,summary:focus-visible{outline:3px solid #9b3f69;outline-offset:4px}
+    .wrap{width:min(70rem,calc(100% - 2rem));margin-inline:auto}
+    .mast,.foot{padding:.9rem 0}
+    .mast a,.foot a{font-weight:800}
+    .hero{background:var(--plum);color:var(--white);padding:clamp(1.4rem,5vw,3.6rem) 0}
+    .hero p+p,.hero h1+p{margin-top:.65rem}
+    .hero h1{margin-top:.35rem}
+    .intro{max-width:65ch;color:#f3e4ec}
+    .label{font-size:.76rem;font-weight:800;letter-spacing:.11em;text-transform:uppercase}
+    .hero .label{color:var(--accent)}
+    .button{display:inline-block;margin-top:1rem;padding:.55rem .9rem;background:var(--accent);color:var(--plum);font-weight:800;border-radius:.25rem}
+    .button:hover{background:#fff3e2}
+    .hero a:focus-visible{outline-color:var(--accent)}
+    .section{padding-block:clamp(1.6rem,5vw,3rem);border-bottom:1px solid var(--line)}
+    .section>p{margin-top:.55rem;color:var(--muted);max-width:70ch}
+    .index{display:grid;grid-template-columns:minmax(0,1fr) minmax(14rem,.58fr);gap:clamp(1rem,4vw,2.5rem);align-items:start}
+    .categories{list-style:none;padding:0;margin:1rem 0 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:.75rem}
+    .categories li{border-top:1px solid var(--line)}
+    .categories a{display:grid;grid-template-columns:1.6rem minmax(0,1fr);gap:.4rem;padding:.55rem .2rem;min-height:3.5rem;text-decoration:none;overflow-wrap:anywhere}
+    .categories a:hover{background:#f0e1e8;text-decoration:underline}
+    .categories small,.categories b{display:block}
+    .categories small,.number{color:var(--muted);font-size:.8rem}
+    .number{font-variant-numeric:tabular-nums}
+    .photo{background:var(--white);border:1px solid var(--line)}
+    .photo img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain;background:#eee7e3}
+    .photo figcaption{padding:.55rem .7rem;font-size:.85rem}
+    .stories{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:1rem;margin-top:1rem}
+    article,.checklist{padding:clamp(.85rem,2vw,1.35rem);border:1px solid var(--line);background:var(--white)}
+    article p,.checklist ul{margin-top:.55rem}
+    .checklist ul{padding-left:1.25rem;margin-bottom:0}
+    .checklist li+li{margin-top:.45rem}
+    .gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.7rem;margin-top:1rem}
+    .faq{max-width:52rem;margin-top:.85rem}
+    details{border-top:1px solid var(--line);padding:.7rem 0}
+    summary{cursor:pointer;font-weight:750}
+    details p{margin:.35rem 0 0 1.15rem}
+    .foot p{margin-top:.35rem;color:var(--muted);font-size:.88rem}
+    @media(max-width:48rem){.index,.stories{grid-template-columns:1fr}.index>.photo{max-width:25rem}.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "CSSBuy spreadsheet",
+        "description": "Browse 10 categories with this CSSBuy spreadsheet guide. Learn to check seller links, compare measurements, read QC photos and estimate parcel costs.",
+        "inLanguage": "en"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "#faq",
+        "inLanguage": "en",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a CSSBuy spreadsheet?",
+            "acceptedAnswer": {"@type": "Answer", "text": "A CSSBuy spreadsheet is a product shortlist used when shopping through CSSBuy. It typically groups seller links by category so you can compare listings, sizes and available options."}
+          },
+          {
+            "@type": "Question",
+            "name": "How do I check a CSSBuy product link?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Open the original seller listing and confirm that the selected size, colour and quantity match your shortlist. If the link is unavailable, ask for a current listing before paying."}
+          },
+          {
+            "@type": "Question",
+            "name": "What should I look for in QC photos?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Compare the warehouse photos with the option you ordered. Look for the size label, colour, visible condition and requested measurements. For close details, ask for a sharper photo or another angle."}
+          },
+          {
+            "@type": "Question",
+            "name": "How do I estimate shipping for a CSSBuy parcel?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Use your destination, parcel weight and package dimensions to compare eligible shipping routes in the agent’s estimator. Add the item price, domestic delivery and applicable fees to plan the total."}
+          },
+          {
+            "@type": "Question",
+            "name": "Does this page link directly to CSSBuy?",
+            "acceptedAnswer": {"@type": "Answer", "text": "The category links open Hipobuyfind.com. Check the destination and the original seller listing before using a product link with your chosen shopping agent."}
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/xxhrn/">
+</head>
+<body>
+  <header class="mast wrap">
+    <a href="https://www.hipobuyfind.com">hipobuyfind.com</a>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="title">
+      <div class="wrap">
+        <p class="label">Product discovery and order checks</p>
+        <h1 id="title">CSSBuy spreadsheet</h1>
+        <p class="intro">A CSSBuy spreadsheet is a product shortlist used when shopping through CSSBuy. Use this guide to browse by category, compare the exact seller options and keep the measurements you need for a warehouse check.</p>
+        <a class="button" href="https://www.hipobuyfind.com">Open the Hipobuyfind catalog</a>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <section class="section index" aria-labelledby="categories">
+        <div>
+          <h2 id="categories">Browse the category index</h2>
+          <nav aria-labelledby="categories">
+            <ul class="categories">
+              <li><a href="https://hipobuyfind.com/category-911-Shoes.html"><span class="number" aria-hidden="true">01</span><span><b>Shoes</b><small>Sneaker size charts and insole length</small></span></a></li>
+              <li><a href="https://hipobuyfind.com/category-912-Hoodies%2FSweaters.html"><span class="number" aria-hidden="true">02</span><span><b>Hoodies/Sweaters</b><small>Hoodie chest width and sleeve length</small></span></a></li>
+              <li><a href="https://hipobuyfind.com/category-913-T-Shirts.html"><span class="number" aria-hidden="true">03</span><span><b>T-Shirts</b><small>T-shirt fit and fabric weight</small></span></a></li>
+              <li><a href="https://hipobuyfind.com/category-914-Jackets.html"><span class="number" aria-hidden="true">04</span><span><b>Jackets</b><small>Shoulder width and room for layers</small></span></a></li>
+              <li><a href="https://hipobuyfind.com/category-915-Pants%2FShorts.html"><span class="number" aria-hidden="true">05</span><span><b>Pants/Shorts</b><small>Waist measurements and inseam</small></span></a></li>
+              <li><a href="https://hipobuyfind.com/category-916-Headwear.html"><span class="number" aria-hidden="true">06</span><span><b>Headwear</b><small>Hat circumference and closure type</small></span></a></li>
+              <li><a href="https://hipobuyfind.com/category-917-Sets.html"><span class="number" aria-hidden="true">07</span><span><b>Sets</b><small>Top and bottom sizing for matching sets</small></span></a></li>
+              <li><a href="https://hipobuyfind.com/category-918-underwear%2Funderpants.html"><span class="number" aria-hidden="true">08</span><span><b>Underwear/underpants</b><small>Waistband stretch and pack quantity</small></span></a></li>
+              <li><a href="https://hipobuyfind.com/category-919-Jersey.html"><span class="number" aria-hidden="true">09</span><span><b>Jersey</b><small>Jersey sizing and print placement</small></span></a></li>
+              <li><a href="https://hipobuyfind.com/category-920-Accessories.html"><span class="number" aria-hidden="true">10</span><span><b>Accessories</b><small>Bag dimensions and bracelet fit</small></span></a></li>
+            </ul>
+          </nav>
+        </div>
+        <figure class="photo">
+          <img src="https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1712150176/788093_XJGL6_9074_001_100_0000_Light-printed-cotton-jersey-t-shirt.jpg" width="490" height="490" alt="White Gucci printed cotton jersey T-shirt shown from the front" loading="eager" fetchpriority="high" decoding="async">
+          <figcaption>Gucci printed cotton jersey T-shirt · Brand reference image</figcaption>
+        </figure>
+      </section>
+
+      <section class="section" aria-labelledby="guides">
+        <h2 id="guides">What to check before you order</h2>
+        <div class="stories">
+          <article>
+            <h3>CSSBuy product links and seller options</h3>
+            <p>Record the original Taobao, Weidian or 1688 listing alongside the exact option label. When comparing listings, check whether the price covers one piece, a pack or the whole set. On wholesale listings, confirm the minimum order quantity. Keep a screenshot of the chosen option if colours or sizes share similar names.</p>
+          </article>
+          <article>
+            <h3>CSSBuy sizing guide for shoes and clothing</h3>
+            <p>Measure something you already wear, then compare it with the seller size chart in centimetres. A flat chest width and a full chest circumference are different measurements. For US, UK and EU shoe sizes, confirm whether the chart gives foot length or insole length before choosing.</p>
+          </article>
+          <article>
+            <h3>CSSBuy QC photos and warehouse measurements</h3>
+            <p>Check that each photo belongs to the option you ordered. For shoes, compare both size labels and inspect the toe box and stitching. For clothing, ask for a tape measure in the frame and a close-up of the print or seam. If something differs from the listing, check the seller’s return window before forwarding the parcel.</p>
+          </article>
+          <article>
+            <h3>CSSBuy shipping estimate and parcel cost</h3>
+            <p>Keep separate entries for the item subtotal, domestic shipping, agent fees and international delivery. Use the packed weight and parcel dimensions when comparing eligible routes. If a carrier uses volumetric weight, a bulky shoe box can affect the quote. Check import costs for the destination separately.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="shortlist">
+        <h2 id="shortlist">A shortlist you can check later</h2>
+        <div class="stories">
+          <div class="checklist">
+            <h3>Before paying</h3>
+            <ul>
+              <li>Save the seller link, option label, listed currency and date checked.</li>
+              <li>Write down one fit measurement to confirm and note any missing size information.</li>
+              <li>Check stock for the selected option and whether domestic delivery is included.</li>
+            </ul>
+          </div>
+          <div class="checklist">
+            <h3>Before forwarding</h3>
+            <ul>
+              <li>Compare the warehouse photos with your notes and resolve visible discrepancies.</li>
+              <li>Check the final parcel dimensions and available routes for your destination.</li>
+              <li>Review the total with any packing charges and destination charges that apply.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="references">
+        <h2 id="references">Brand references for comparing details</h2>
+        <p>Use these photos to see details worth checking, such as a sneaker profile, a hat brim or a bracelet closure. They are visual references and do not indicate catalog stock or verify any seller listing.</p>
+        <div class="gallery">
+          <figure class="photo">
+            <img src="https://nikeclprod.vtexassets.com/arquivos/ids/160793/CW2288_111_A_PREM.jpg?v=637654399803530000" width="1000" height="1000" alt="White Nike Air Force 1 ’07 low-top sneaker in side profile" loading="lazy" decoding="async">
+            <figcaption>Nike Air Force 1 ’07</figcaption>
+          </figure>
+          <figure class="photo">
+            <img src="https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-bob-en-denim--M5368M_PM1_Side%20view.jpg" width="800" height="800" alt="Side view of a blue Louis Vuitton monogram denim bucket hat" loading="lazy" decoding="async">
+            <figcaption>Louis Vuitton denim bucket hat</figcaption>
+          </figure>
+          <figure class="photo">
+            <img src="https://assets.hermes.com/is/image/hermesproduct/kelly-double-tour-bracelet--064642CC37-front-wm-2-0-0-800-800_g.jpg" width="800" height="800" alt="Brown Hermès Kelly Double Tour leather bracelet with metal clasp" loading="lazy" decoding="async">
+            <figcaption>Hermès Kelly Double Tour bracelet</figcaption>
+          </figure>
+          <figure class="photo">
+            <img src="https://assets.christiandior.com/is/image/diorprod/M0455CTZQM928_SBG_E01?%24r9x10_raw%24=&amp;crop=0%2C0%2C4000%2C5000&amp;hei=2000&amp;scale=1&amp;wid=1850" width="1850" height="2000" alt="Blue Dior Oblique jacquard Saddle bag with strap" loading="lazy" decoding="async">
+            <figcaption>Dior Oblique Saddle bag</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="faq" aria-labelledby="faq-title">
+        <h2 id="faq-title">CSSBuy spreadsheet FAQ</h2>
+        <div class="faq">
+          <details open>
+            <summary>What is a CSSBuy spreadsheet?</summary>
+            <p>A CSSBuy spreadsheet is a product shortlist used when shopping through CSSBuy. It typically groups seller links by category so you can compare listings, sizes and available options.</p>
+          </details>
+          <details>
+            <summary>How do I check a CSSBuy product link?</summary>
+            <p>Open the original seller listing and confirm that the selected size, colour and quantity match your shortlist. If the link is unavailable, ask for a current listing before paying.</p>
+          </details>
+          <details>
+            <summary>What should I look for in QC photos?</summary>
+            <p>Compare the warehouse photos with the option you ordered. Look for the size label, colour, visible condition and requested measurements. For close details, ask for a sharper photo or another angle.</p>
+          </details>
+          <details>
+            <summary>How do I estimate shipping for a CSSBuy parcel?</summary>
+            <p>Use your destination, parcel weight and package dimensions to compare eligible shipping routes in the agent’s estimator. Add the item price, domestic delivery and applicable fees to plan the total.</p>
+          </details>
+          <details>
+            <summary>Does this page link directly to CSSBuy?</summary>
+            <p>The category links open Hipobuyfind.com. Check the destination and the original seller listing before using a product link with your chosen shopping agent.</p>
+          </details>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="foot wrap">
+    <a href="https://www.hipobuyfind.com">hipobuyfind.com</a>
+    <p>Independent shopping guide. Brand names identify the reference images. This page has no affiliation with CSSBuy or the featured brands.</p>
+  </footer>
+</body>
+</html>
